@@ -12,6 +12,8 @@ rust-version = "1.74" # MSRV
 
 [workspace.dependencies]
 clap = { version = "4.5.54", features = ["derive"] }
+console = { version = "0.16.2" }
+dialoguer = { version = "0.12.0" }
 indicatif = { version = "0.18.4" }
 git2 = { version = "0.20.4", features = ["https", "ssh"] }
 dotfiles-loader = { version = "0.1.0", path = "packages/dotfiles-loader" }
