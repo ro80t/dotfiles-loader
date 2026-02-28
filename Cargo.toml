@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = ["packages/dfl-git",
+    "packages/dotfiles-loader"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/ro80t/dotfiles-loader"
+rust-version = "1.74" # MSRV
+
+[workspace.dependencies]
+clap = { version = "4.5.54", features = ["derive"] }
+git2 = { version = "0.20.4", features = ["https", "ssh"] }
+
+[patch.crates-io]
+dotfiles-loader = { path = "packages/dotfiles-loader" }
+
+[workspace.lints.clippy]
