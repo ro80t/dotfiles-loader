@@ -11,11 +11,9 @@ RUN apt update \
     gnome-terminal \
     gnupg \
     htop \
-    libssl-dev \
     nano \
     nodejs \
     npm \
-    pkg-config \
     sudo \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
