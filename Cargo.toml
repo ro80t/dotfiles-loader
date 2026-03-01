@@ -1,7 +1,8 @@
 [workspace]
 resolver = "2"
-members = ["packages/dfl-git",
-    "packages/dotfiles-loader"
+members = [
+    "packages/dfl-git",
+    "packages/dotfiles-loader",
 ]
 
 [workspace.package]
