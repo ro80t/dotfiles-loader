@@ -1,5 +1,6 @@
 [package]
 name = "dotfiles-loader"
+description = "Make loading dotfiles easier!"
 version.workspace = true
 edition.workspace = true
 repository.workspace = true

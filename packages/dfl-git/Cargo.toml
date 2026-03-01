@@ -1,5 +1,6 @@
 [package]
 name = "dfl-git"
+description = "git wrapper for dotfiles-loader"
 version.workspace = true
 edition.workspace = true
 repository.workspace = true
