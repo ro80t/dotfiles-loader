@@ -8,6 +8,7 @@ members = ["packages/dfl-git",
 version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/ro80t/dotfiles-loader"
+license = "MIT"
 rust-version = "1.74" # MSRV
 
 [workspace.dependencies]
